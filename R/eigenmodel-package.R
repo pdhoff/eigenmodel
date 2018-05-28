@@ -8,7 +8,8 @@ utils::globalVariables(c("R","Ranks","UL","X","Y","Z","b","mean_u","n","pm_b","p
 #' eigenvalue decomposition and regression. Missing data is accommodated, and a
 #' posterior mean for missing data is calculated under the assumption that the
 #' data are missing at random. The marginal distribution of the relational data
-#' can be arbitrary, and is fit with an ordered probit specification.
+#' can be arbitrary, and is fit with an ordered probit specification.  See Hoff 
+#' (2007) <arXiv:0711.1146> for details on the model. 
 #' 
 #' \tabular{ll}{ Package: \tab eigenmodel\cr Type: \tab Package\cr Version:
 #' \tab 1.10\cr Date: \tab 2018-05-26\cr License: \tab GPL Version 2 \cr }

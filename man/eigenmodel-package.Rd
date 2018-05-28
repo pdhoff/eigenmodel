@@ -11,7 +11,7 @@ data (e.g., the above-diagonal part of a square matrix), using a model-based
 eigenvalue decomposition and regression. Missing data is accomodated, and a
 posterior mean for missing data is calculated under the assumption that the
 data are missing at random. The marginal distribution of the relational data
-can be arbitrary, and is fit with an ordered probit specification.
+can be arbitrary, and is fit with an ordered probit specification. See Hoff (2007) <arXiv:0711.1146> for details on the model.
 }
 \details{
 \tabular{ll}{ Package: \tab eigenmodel\cr Type: \tab Package\cr Version:
